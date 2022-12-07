@@ -12,10 +12,10 @@ async function main() {
     selectSandwich(items[0])
 
     // Display the ingredients we fetched
-    renderIngredientList();
+    ingredientList.render();
 
     // Display the sandwiches we fetched
-    renderCart();
+    cart1.renderCart();
 
     // Attach event listener to the 'Add Sandwich' button
     let addButton = document.querySelector('.add-button');
